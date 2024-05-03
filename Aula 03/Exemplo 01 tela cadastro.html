@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tela de cadastro de PET</title>
+</head>
+
+<body>
+
+    <h1>Cadastro de agendamento de consulta do PET</h1>
+
+    <form action="/cadastrar" method="get">
+
+        <div>
+            <h2>Escolha o seu PET</h2>
+            <label for="Pet Cachorro">Cachorro</label>
+            <input type="radio" id="cachorro" name="Pet tipo" value="Cachorro" required="required">
+            <label for="pet gato">Gato</label>
+            <input type="radio" id="pet gato" name="Pet tipo" value="Gato" required="required">
+        </div>
+        <div>
+            <h2>Escreva o nome do seu Pet</h2>
+            <label for="nome-pet">Nome do PET:</label>
+            <input type="text" id="Nome-pet" name="nome-pet" required="required" minlength="3" maxlength="20" >
+        </div>
+        <div>
+
+            <label for="pet-raça">Raça:</label>
+            <select required="required" id="pet-raça" name="raca">
+
+
+
+
+<option selected="select" disabled="disabled">Selecione uma opçao </option>
+                <option value="7">Buldogue Frances</option>
+                <option value="4">Buldogue</option>
+                <option value="9">Don sphynx</option>
+                <option value="6">Golden retriever</option>
+                <option value="8">Husky siberiano</option>
+                <option value="5">Labrador retriever</option>
+                <option value="10">Maine coon></option>
+                <option value="3">Pastor-alemão</option>
+                <option value="1">Pinscher</option>
+                <option value="2">Rottweiler</option>
+            </select>
+        </div>
+        <div>
+            <label for="pet-idade">Idade Pet:</label>
+            <input type="text" id="pet-idade" list="idades" required="required" name="idade">
+            <datalist id="idades" >
+                <option value="0 anos"></option>
+                <option value="1 ano"></option>
+                <option value="2 anos"></option>
+                <option value="3 anos"></option>
+                <option value="4 anos"></option>
+                <option value="5 anos"></option>
+                <option value="6 anos"></option>
+                <option value="7 anos"></option>
+                <option value="8 anos"></option>
+                <option value="9 anos"></option>
+                <option value="10 anos"></option>
+                <option value="11 anos"></option>
+                <option value="12 anos"></option>
+                <option value="13 anos"></option>
+                <option value="14 anos"></option>
+                <option value="15 anos"></option>
+                <option value="16 anos"></option>
+                <option value="17 anos"></option>
+                <option value="18 anos"></option>
+                <option value="19 anos"></option>
+                <option value="20 anos"></option>
+
+            </datalist>
+
+        </div>
+        <div>
+            <label for="dono-pet">Dono</label>
+            <input type="text" id="dono-pet" name="Dono:" required="required" >
+
+
+
+
+        </div>
+        <div>
+            <label for="peso-pet">Peso:</label>
+            <input type="text" id="peso-pet" name="Peso:" required="required">
+
+        </div>
+
+        <div>
+            <label for="data-pet">Data e Hora da consulta</label>
+            <input type="datetime-local" id="data-pet" name="data:" required="required">
+        </div>
+        <div>
+            <label for="foto-pet">Foto</label>
+            <input type="file" id="foto-pet" name="foto" accept="image/png, image/jpg , image/gif, image/webp" required="required">
+
+
+
+
+
+        </div>
+        <button type="submit">Cadastrar</button>
+    </form>
+</body>
+
+</html>
