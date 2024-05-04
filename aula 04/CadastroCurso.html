@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+
+
+    
+    
+    <div>
+        <a href="index.html">Menu</a>
+        
+        
+    </div>
+    <div>
+        <span>Faça o cadastro abaixo e se inscreva em nossos cursos</span>
+    </div>
+
+    <form action="armazenarCurso.html" method="post">
+        <fieldset>
+            <legend>Detalhes Basicos</legend>
+
+            <div>
+                <label for="campo-nome">Nome</label>
+                <input type="text" id="campo-nome" name="nome" required>
+            </div>
+            <div>
+                <label for="campo-categoria">Nome</label>
+                <select id="campo-categoria" name="categoria" required="required">
+                    <optgroup label="Desenvolvimento">
+                        
+                        <option value="Back End">Back end</option>
+                        <option value="Front End">Front end</option>
+                        <option value="full stack">full stack</option>
+                    </optgroup >
+                    <optgroup label="Administrativo"></optgroup>
+                    <option value="Comprador">Comprador</option>
+                    <option value="Vendedor">Vendedor</option>
+                </optgroup>
+                
+                
+                
+                
+            </select>
+        </div>
+        <div>
+            <label for="campo-duraçao">Duraçao</label>
+            <input type="time" id="campo-duraçao" name="duraçao" required>
+        </div>
+    </fieldset>
+        <div>
+            <label for="campo-thumb">Thumb</label>
+            <input type="file" id="campo-thumb" name="thumb" required>
+        </div>
+        <button type="submit">Cadastrar</button>
+        
+
+    </form>
+    
+</body>
+</html>
