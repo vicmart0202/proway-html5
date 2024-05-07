@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros</title>
+</head>
+
+<body>
+
+    <div>
+        <form method="get">
+            <div>
+
+                <h1>Bem vindo ao site de carros</h1>
+            </div>
+            <div>
+                <label>Selecione uma marca:</label>
+                <select name="Marca">
+                    <option disabled selected>selecione</option>
+                    <option value="Mercedes">Mercedes</option>
+                    <option value="Fiat">Fiat</option>
+                    <option value="BMW">BMW</option>
+                    <option value="Tesla">Tesla</option>
+                    <option value="Audi">Audi</option>
+                </select>
+                <div>
+
+                    <span>O carro usado ou novo?</span>
+                </div>
+
+                <div>
+
+                    <input type="radio" id="novo" name="Estado" value="Novo">
+                    <label for="novo">Novo</label>
+                </div>
+                <div>
+                    <input type="radio" id="usado" name="Estado" value="usado">
+                    <label for="usado">Usado</label>
+                </div>
+                <div>
+                    <div>
+
+                        <span>Digite o ano inicial eo ano final</span>
+                    </div>
+
+                    <label for="ano_inicial">Ano Inicial</label>
+                    <input type="number" id="ano_inicial" required name="Ano_inicial" max="2024" min="2000">
+                </div>
+
+                <div>
+
+                    <label for="ano_final">Ano Final</label>
+                    <input type="number" id="ano_final" required name="Ano_final" max="2024" min="2000">
+                </div>
+                <div>
+                    <span>Escolha se ele e caro ou barato</span>
+                    <div>
+
+                        <label for="preco">Caro</label>
+                        <input type="checkbox" id="preco" name="preco" value="caro">
+                    </div>
+                    <div>
+
+                        <label for="preco2">Barato</label>
+                        <input type="checkbox" id="preco2" name="preco2" value="barato">
+                    </div>
+                    <div>
+                        <span>Escolha a cor do carro</span>
+                        <div>
+                            <label for="cor1">azul</label>
+                            <input type="checkbox" id="cor1" name="cor1" value="azul">
+                        </div>
+                        <div>
+
+                            <label for="cor2">vermelho</label>
+                            <input type="checkbox" id="cor2" name="cor2" value="vermelho">
+                        </div>
+                        <div>
+
+                            <label for="cor3">preto</label>
+                            <input type="checkbox" id="cor3" name="cor3" value="preto">
+                        </div>
+                        <div>
+
+                            <label for="cor4">branco</label>
+                            <input type="checkbox" id="cor4" name="cor4" value="branco">
+                        </div>
+                        <span>Escolha o tipo de carro</span>
+                        <div>
+                            <input type="radio" id="tipo1" name="tipo" value="hatch">
+                            <label for="tipo1">Hatchs</label>
+                            <div>
+                                <input type="radio" id="tipo2" name="tipo" value="SUV">
+                                <label for="tipo2">SUV</label>
+
+                            </div>
+                            <div>
+                                <input type="radio" id="tipo3" name="tipo" value="Sedans">
+                                <label for="tipo3">Sedans</label>
+
+                            </div>
+                            <div>
+                                <input type="radio" id="tipo4" name="tipo" value="Picapes">
+                                <label for="tipo4">Picapes</label>
+
+                            </div>
+                            <div>
+                                <input type="radio" id="tipo5" name="tipo" value="Utilitários">
+                                <label for="tipo5">Utilitários</label>
+
+                            </div>
+
+                        </div>
+
+                        <div>
+                            <button type="submit">Enviar</button>
+
+                        </div>
+
+
+
+                    </div>
+        </form>
+    </div>
+    <div>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Imagem</th>
+                    <th>Marca</th>
+                    <th>Modelo</th>
+                    <th>Tipo</th>
+                    <th>novo/usado</th>
+                    <th>ano</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="https://www.infomoney.com.br/wp-content/uploads/2019/06/fiat-uno-vivace.jpg?fit=900%2C572&quality=50&strip=all"
+                            width="200"></td>
+                    <td>Fiat</td>
+                    <td>Uno</td>
+                    <td>SUV</td>
+                    <td>Usado</td>
+                    <td>2014</td>
+                    <td><a href="https://pt.wikipedia.org/wiki/Fiat_Uno" target="_blank ">Mais detalhes</a></td>
+                </tr>
+                <tr>
+                    <td><img src="https://t.ctcdn.com.br/Lbpl86HLL9z4yu2kMrpd9y_bb_M=/1024x576/smart/i775472.jpeg"
+                            width="200"></td>
+                    <td>Mercedes</td>
+                    <td>Benz</td>
+                    <td>SUV</td>
+                    <td>Novo</td>
+                    <td>2024</td>
+                    <td><a href="https://pt.wikipedia.org/wiki/Mercedes-Benz" target="_blank ">Mais detalhes</a></td>
+                </tr>
+                <tr>
+                    <td><img src="https://cdn.motor1.com/images/mgl/pPpzP/s1/2021-audi-a3-sedan-debut.jpg" width="200">
+                    </td>
+                    <td>Audi</td>
+                    <td>A3 </td>
+                    <td>Sedan</td>
+                    <td>usado
+                    </td>
+                    <td>2016</td>
+                    <td><a href="https://pt.wikipedia.org/wiki/Audi_A3" target="_blank ">Mais detalhes</a></td>
+                </tr>
+                <tr>
+                    <td><img src="https://bocamafrapremium.com.br/wp-content/uploads/2024/01/a68adbb0011344528390c064df17a5e1_1671800981736.jpg"
+                            width="200"></td>
+                    <td>Tesla</td>
+                    <td>S</td>
+                    <td>Sedans</td>
+                    <td>Novo</td>
+                    <td>2024</td>
+                    <td><a href="https://pt.wikipedia.org/wiki/Tesla_Model_S" target="_blank ">Mais detalhes</a></td>
+                </tr>
+                <tr>
+                    <td><img src="https://img.olx.com.br/images/63/632458122206784.jpg" width="200"></td>
+                    <td>BMW</td>
+                    <td>320i</td>
+                    <td>Hatch</td>
+                    <td>Usado</td>
+                    <td>2015</td>
+                    <td><a href="https://img.olx.com.br/images/63/632458122206784.jpg" target="_blank ">Mais
+                            detalhes</a></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>
