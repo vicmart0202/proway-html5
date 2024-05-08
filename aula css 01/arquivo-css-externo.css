@@ -1,0 +1,14 @@
+body {
+   background-color: aqua;
+}
+h2{
+    color: blue;
+}
+span{
+    color: brown;
+    font-size: small;
+}
+p{
+    font-size: 15px;
+    background-color: cornflowerblue;
+}

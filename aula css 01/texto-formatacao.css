@@ -1,0 +1,20 @@
+#texto1{
+    background-color: blueviolet;
+    text-align: left;
+    
+}
+#texto2{
+    background-color: blue;
+    text-align: center;
+    
+}
+#texto3{
+    background-color: green;
+    text-align: right;
+    
+
+}
+#texto4{
+    text-align: justify;
+    
+}
