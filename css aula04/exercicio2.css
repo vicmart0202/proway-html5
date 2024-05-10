@@ -1,0 +1,20 @@
+body{
+    background-color: blanchedalmond;
+    text-align: center;
+}
+.classe{
+    text-align: center;
+    border: 2px solid black;
+    display: inline-block;
+    width: 20%;
+    font-family: courier,arial,helvetica;
+
+}
+.foto{
+   width: 100px;
+   height: 100px;border-radius: 100px;
+
+}
+.tudo{
+    text-decoration: none;
+}
