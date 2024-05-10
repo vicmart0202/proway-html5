@@ -1,0 +1,72 @@
+.label-campo {
+    display: block;
+    cursor: pointer;
+
+}
+
+.campo {
+    border-radius: 4px;
+    width: 300px;
+    border-color: black;
+    border-width: 0.8px;
+    padding: 7px 11px;
+    box-sizing: border-box;
+    margin-bottom: 7px;
+    width: 90%;
+}
+
+.campo:hover {
+    border-color: gray;
+}
+.button-cadastrar{
+    padding: 10px 20px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+    border: none;
+}
+.button-cadastrar:hover{
+    background-color: darkblue;
+}
+.button-cancelar{
+    color: red;
+    outline-width: 5px;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid red;
+
+}
+.button-cancelar:hover{
+    background-color: red;
+    color: white;
+}
+.campo-upload{
+    display: none;
+    
+}
+.label-campo-upload{
+    
+cursor: pointer;
+background-color: lightgray;
+padding: 5px 5px;
+display: inline-block;
+border:1px solid #fff;
+border-radius: 5px;
+}
+.esquerda{
+    float: left;
+    width: 50%;
+    
+
+}
+.direita{
+    float: right;
+    width: 50%;
+    
+}
