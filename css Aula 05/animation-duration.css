@@ -1,0 +1,18 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: relative;
+    animation-name: animaçao;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes animaçao{
+    from{
+        left: 0px;
+    }
+    to{
+        left: 90%;
+    }
+}

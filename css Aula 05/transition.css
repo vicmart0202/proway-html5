@@ -1,0 +1,11 @@
+.transition-box{
+    width: 200PX;
+    height: 200px;
+    background-color: aquamarine;
+    transition: background-color 2s, transform 4s, border-radius 4s;
+}
+.transition-box:hover{
+    background-color: black;
+    transform: rotate(90deg);
+    border-radius:  50%;
+}

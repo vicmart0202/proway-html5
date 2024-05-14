@@ -1,0 +1,9 @@
+.skew{
+width: 100px;
+height: 100px;
+background-color: aqua;
+transition: transform 2s ease-in;
+}
+.skew:hover{
+transform: skew(20deg, 10deg);
+}

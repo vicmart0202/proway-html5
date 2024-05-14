@@ -1,0 +1,10 @@
+.flexbox div{
+    background-color: darkcyan;
+    width: 100px;
+    height: 100px;
+
+}
+.flexbox{
+    display: flex;
+    flex-direction: row;
+}

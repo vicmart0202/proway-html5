@@ -1,0 +1,20 @@
+.carregamento {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 16px solid violet;
+    border-top: 16px solid blue;
+    animation-name: spinner;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; /* Added timing function */
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg); /* Corrected 'transform' instead of 'translate', also removed unnecessary space */
+    }
+    100% {
+        transform: rotate(360deg); /* Corrected 'transform' instead of 'translate', also removed unnecessary space */
+    }
+}

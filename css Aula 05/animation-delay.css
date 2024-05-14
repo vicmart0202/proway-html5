@@ -1,0 +1,17 @@
+.box{
+    height: 100px;
+    width: 100px;
+    animation-name: minhaAnimacao;
+    animation-duration: 4s;
+    background-color: aqua;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+@keyframes minhaAnimacao{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
